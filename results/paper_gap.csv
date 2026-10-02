@@ -1,0 +1,13 @@
+model,ours_mape_secondary,ours_mape_test,ours_mape_train,ours_rmse_secondary,ours_rmse_test,ours_rmse_train,paper_model,paper_rmse_train,paper_rmse_primary,paper_rmse_secondary,paper_mape_train,paper_mape_primary,paper_mape_secondary,rmse_gap_test_vs_primary,rmse_gap_b3_vs_secondary,mape_gap_test_vs_primary,mape_gap_b3_vs_secondary
+Baseline (train median),24.5,58.7,16.1,422.8,301.4,147.5,variance,103,138,196,14.1,14.7,11.4,163.4,226.8,44.0,13.1
+Baseline (train median),24.5,58.7,16.1,422.8,301.4,147.5,discharge,76,91,173,9.8,13.0,8.6,210.4,249.8,45.7,15.9
+Baseline (train median),24.5,58.7,16.1,422.8,301.4,147.5,full,51,118,214,5.6,14.1,10.7,183.4,208.8,44.6,13.8
+Linear (ln Var ΔQ),12.1,25.6,8.3,237.7,153.0,82.5,variance,103,138,196,14.1,14.7,11.4,15.0,41.7,10.9,0.7
+Linear (ln Var ΔQ),12.1,25.6,8.3,237.7,153.0,82.5,discharge,76,91,173,9.8,13.0,8.6,62.0,64.7,12.6,3.5
+Linear (ln Var ΔQ),12.1,25.6,8.3,237.7,153.0,82.5,full,51,118,214,5.6,14.1,10.7,35.0,23.7,11.5,1.4
+Random Forest,18.2,32.8,4.8,352.7,172.2,51.9,variance,103,138,196,14.1,14.7,11.4,34.2,156.7,18.1,6.8
+Random Forest,18.2,32.8,4.8,352.7,172.2,51.9,discharge,76,91,173,9.8,13.0,8.6,81.2,179.7,19.8,9.6
+Random Forest,18.2,32.8,4.8,352.7,172.2,51.9,full,51,118,214,5.6,14.1,10.7,54.2,138.7,18.7,7.5
+Ridge (extended),11.9,41.4,5.9,240.4,244.9,61.8,variance,103,138,196,14.1,14.7,11.4,106.9,44.4,26.7,0.5
+Ridge (extended),11.9,41.4,5.9,240.4,244.9,61.8,discharge,76,91,173,9.8,13.0,8.6,153.9,67.4,28.4,3.3
+Ridge (extended),11.9,41.4,5.9,240.4,244.9,61.8,full,51,118,214,5.6,14.1,10.7,126.9,26.4,27.3,1.2

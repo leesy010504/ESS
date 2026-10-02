@@ -1,0 +1,477 @@
+model,split,cell_id,batch,policy,newstructure,cycle_life,predicted,ln_dq_variance,residual,abs_pct_error
+Baseline (train median),train,1_06,Batch 1,4.4C(80%)-4.4C,False,1074.0,772.5,-9.622,-301.5,28.073
+Baseline (train median),train,1_07,Batch 1,4.8C(80%)-4.8C,False,636.0,772.5,-8.678,136.5,21.462
+Baseline (train median),train,1_08,Batch 1,4.8C(80%)-4.8C,False,870.0,772.5,-8.781,-97.5,11.207
+Baseline (train median),train,1_10,Batch 1,5.4C(40%)-3.6C,False,1054.0,772.5,-9.347,-281.5,26.708
+Baseline (train median),train,1_12,Batch 1,5.4C(50%)-3C,False,788.0,772.5,-9.549,-15.5,1.967
+Baseline (train median),train,1_15,Batch 1,5.4C(60%)-3C,False,880.0,772.5,-9.316,-107.5,12.216
+Baseline (train median),train,1_16,Batch 1,5.4C(60%)-3C,False,719.0,772.5,-9.252,53.5,7.441
+Baseline (train median),train,1_17,Batch 1,5.4C(60%)-3.6C,False,862.0,772.5,-9.439,-89.5,10.383
+Baseline (train median),train,1_18,Batch 1,5.4C(60%)-3.6C,False,857.0,772.5,-9.142,-84.5,9.86
+Baseline (train median),train,1_19,Batch 1,5.4C(70%)-3C,False,691.0,772.5,-8.405,81.5,11.795
+Baseline (train median),train,1_20,Batch 1,5.4C(70%)-3C,False,788.0,772.5,-8.335,-15.5,1.967
+Baseline (train median),train,1_21,Batch 1,5.4C(80%)-5.4C,False,534.0,772.5,-7.753,238.5,44.663
+Baseline (train median),train,1_22,Batch 1,5.4C(80%)-5.4C,False,559.0,772.5,-7.714,213.5,38.193
+Baseline (train median),train,1_24,Batch 1,6C(30%)-3.6C,False,1014.0,772.5,-9.304,-241.5,23.817
+Baseline (train median),train,1_25,Batch 1,6C(40%)-3C,False,1017.0,772.5,-9.069,-244.5,24.041
+Baseline (train median),train,1_26,Batch 1,6C(40%)-3C,False,854.0,772.5,-9.275,-81.5,9.543
+Baseline (train median),train,1_27,Batch 1,6C(40%)-3.6C,False,870.0,772.5,-8.739,-97.5,11.207
+Baseline (train median),train,1_28,Batch 1,6C(40%)-3.6C,False,842.0,772.5,-8.873,-69.5,8.254
+Baseline (train median),train,1_29,Batch 1,6C(50%)-3C,False,860.0,772.5,-8.853,-87.5,10.174
+Baseline (train median),train,1_30,Batch 1,6C(50%)-3C,False,917.0,772.5,-8.838,-144.5,15.758
+Baseline (train median),train,1_31,Batch 1,6C(50%)-3.6C,False,709.0,772.5,-8.622,63.5,8.956
+Baseline (train median),train,1_32,Batch 1,6C(50%)-3.6C,False,876.0,772.5,-8.699,-103.5,11.815
+Baseline (train median),train,1_33,Batch 1,6C(60%)-3C,False,731.0,772.5,-8.396,41.5,5.677
+Baseline (train median),train,1_34,Batch 1,6C(60%)-3C,False,757.0,772.5,-8.444,15.5,2.048
+Baseline (train median),train,1_35,Batch 1,7C(30%)-3.6C,False,742.0,772.5,-8.862,30.5,4.111
+Baseline (train median),train,1_36,Batch 1,7C(30%)-3.6C,False,703.0,772.5,-8.687,69.5,9.886
+Baseline (train median),train,1_37,Batch 1,7C(40%)-3C,False,704.0,772.5,-8.449,68.5,9.73
+Baseline (train median),train,1_38,Batch 1,7C(40%)-3C,False,648.0,772.5,-8.46,124.5,19.213
+Baseline (train median),train,1_39,Batch 1,7C(40%)-3.6C,False,617.0,772.5,-7.905,155.5,25.203
+Baseline (train median),train,1_40,Batch 1,7C(40%)-3.6C,False,625.0,772.5,-8.069,147.5,23.6
+Baseline (train median),train,1_41,Batch 1,8C(15%)-3.6C,False,966.0,772.5,-9.337,-193.5,20.031
+Baseline (train median),train,1_42,Batch 1,8C(15%)-3.6C,False,1051.0,772.5,-9.375,-278.5,26.499
+Baseline (train median),train,1_43,Batch 1,8C(25%)-3.6C,False,702.0,772.5,-8.441,70.5,10.043
+Baseline (train median),train,1_44,Batch 1,8C(25%)-3.6C,False,651.0,772.5,-8.445,121.5,18.664
+Baseline (train median),train,1_45,Batch 1,8C(35%)-3.6C,False,616.0,772.5,-7.876,156.5,25.406
+Baseline (train median),train,1_46,Batch 1,8C(35%)-3.6C,False,599.0,772.5,-7.887,173.5,28.965
+Baseline (train median),test,2_01,Batch 2,5.2C(58%)-4C,False,477.0,772.5,-8.03,295.5,61.95
+Baseline (train median),test,2_02,Batch 2,5.6C(26%)-4.5C,False,491.0,772.5,-7.594,281.5,57.332
+Baseline (train median),test,2_03,Batch 2,5.2C(50%)-4.25C,False,424.0,772.5,-7.968,348.5,82.193
+Baseline (train median),test,2_04,Batch 2,4.65C(44%)-5C,False,499.0,772.5,-8.05,273.5,54.81
+Baseline (train median),test,2_05,Batch 2,4.65C(69%)-6C,False,444.0,772.5,-7.443,328.5,73.986
+Baseline (train median),test,2_06,Batch 2,3.6C(30%)-6C,False,416.0,772.5,-7.106,356.5,85.697
+Baseline (train median),test,2_07,Batch 2,3.6C(9%)-5C,False,393.0,772.5,-8.128,379.5,96.565
+Baseline (train median),test,2_08,Batch 2,4.8C(80%)-4.8C-newstructure,True,777.0,772.5,-9.744,-4.5,0.579
+Baseline (train median),test,2_09,Batch 2,5.2C(58%)-4C-newstructure,True,904.0,772.5,-9.446,-131.5,14.546
+Baseline (train median),test,2_10,Batch 2,5.6C(26%)-4.5C-newstructure,True,791.0,772.5,-10.003,-18.5,2.339
+Baseline (train median),test,2_11,Batch 2,4.8C(80%)-4.8C,False,492.0,772.5,-7.946,280.5,57.012
+Baseline (train median),test,2_12,Batch 2,5.2C(50%)-4.25C,False,449.0,772.5,-8.025,323.5,72.049
+Baseline (train median),test,2_13,Batch 2,4.65C(44%)-5C,False,466.0,772.5,-7.295,306.5,65.773
+Baseline (train median),test,2_14,Batch 2,4.65C(69%)-6C,False,460.0,772.5,-7.701,312.5,67.935
+Baseline (train median),test,2_15,Batch 2,3.6C(30%)-6C,False,426.0,772.5,-7.181,346.5,81.338
+Baseline (train median),test,2_16,Batch 2,3.6C(9%)-5C,False,396.0,772.5,-8.096,376.5,95.076
+Baseline (train median),test,2_17,Batch 2,4.8C(80%)-4.8C,False,472.0,772.5,-8.047,300.5,63.665
+Baseline (train median),test,2_18,Batch 2,5.6C(26%)-4.5C,False,471.0,772.5,-8.06,301.5,64.013
+Baseline (train median),test,2_19,Batch 2,5.2C(50%)-4.25C,False,449.0,772.5,-8.536,323.5,72.049
+Baseline (train median),test,2_20,Batch 2,6C(60%)-3C,False,392.0,772.5,-7.58,380.5,97.066
+Baseline (train median),test,2_21,Batch 2,5.2C(58%)-4C,False,489.0,772.5,-7.924,283.5,57.975
+Baseline (train median),test,2_22,Batch 2,6C(60%)-3C,False,408.0,772.5,-7.66,364.5,89.338
+Baseline (train median),test,2_25,Batch 2,4.8C(80%)-4.8C,False,514.0,772.5,-8.383,258.5,50.292
+Baseline (train median),test,2_26,Batch 2,5.2C(58%)-4C,False,493.0,772.5,-8.138,279.5,56.694
+Baseline (train median),test,2_27,Batch 2,5.6C(26%)-4.5C,False,450.0,772.5,-7.419,322.5,71.667
+Baseline (train median),test,2_28,Batch 2,5.2C(50%)-4.25C,False,474.0,772.5,-8.027,298.5,62.975
+Baseline (train median),test,2_29,Batch 2,4.8C(80%)-4.8C,False,437.0,772.5,-7.883,335.5,76.773
+Baseline (train median),test,2_30,Batch 2,5.2C(58%)-4C,False,452.0,772.5,-8.078,320.5,70.907
+Baseline (train median),test,2_31,Batch 2,5.6C(26%)-4.5C,False,412.0,772.5,-7.335,360.5,87.5
+Baseline (train median),test,2_32,Batch 2,5.6C(26%)-4.5C,False,425.0,772.5,-7.719,347.5,81.765
+Baseline (train median),test,2_33,Batch 2,4.8C(80%)-4.8C-newstructure,True,809.0,772.5,-9.513,-36.5,4.512
+Baseline (train median),test,2_34,Batch 2,5.2C(58%)-4C-newstructure,True,1140.0,772.5,-9.744,-367.5,32.237
+Baseline (train median),test,2_35,Batch 2,5.6C(26%)-4.5C-newstructure,True,1186.0,772.5,-10.243,-413.5,34.865
+Baseline (train median),test,2_42,Batch 2,5.6C(26%)-4.5C,False,442.0,772.5,-7.305,330.5,74.774
+Baseline (train median),test,2_43,Batch 2,5.2C(50%)-4.25C,False,474.0,772.5,-8.019,298.5,62.975
+Baseline (train median),test,2_44,Batch 2,4.8C(80%)-4.8C-newstructure,True,1029.0,772.5,-9.836,-256.5,24.927
+Baseline (train median),test,2_45,Batch 2,5.2C(58%)-4C-newstructure,True,841.0,772.5,-10.05,-68.5,8.145
+Baseline (train median),test,2_46,Batch 2,5.6C(26%)-4.5C-newstructure,True,997.0,772.5,-9.614,-224.5,22.518
+Baseline (train median),test,2_47,Batch 2,4.8C(80%)-4.8C,False,503.0,772.5,-8.079,269.5,53.579
+Baseline (train median),secondary,3_01,Batch 3,5C(67%)-4C-newstructure,True,1009.0,772.5,-9.775,-236.5,23.439
+Baseline (train median),secondary,3_02,Batch 3,5.3C(54%)-4C-newstructure,True,1063.0,772.5,-9.868,-290.5,27.328
+Baseline (train median),secondary,3_03,Batch 3,5.6C(19%)-4.6C-newstructure,True,1267.0,772.5,-11.005,-494.5,39.029
+Baseline (train median),secondary,3_04,Batch 3,5.6C(36%)-4.3C-newstructure,True,1115.0,772.5,-9.479,-342.5,30.717
+Baseline (train median),secondary,3_05,Batch 3,5.6C(19%)-4.6C-newstructure,True,1048.0,772.5,-9.621,-275.5,26.288
+Baseline (train median),secondary,3_06,Batch 3,5.6C(36%)-4.3C-newstructure,True,828.0,772.5,-9.474,-55.5,6.703
+Baseline (train median),secondary,3_07,Batch 3,3.7C(31%)-5.9C-newstructure,True,667.0,772.5,-8.118,105.5,15.817
+Baseline (train median),secondary,3_08,Batch 3,4.8C(80%)-4.8C-newstructure,True,1836.0,772.5,-10.336,-1063.5,57.925
+Baseline (train median),secondary,3_09,Batch 3,5C(67%)-4C-newstructure,True,828.0,772.5,-9.422,-55.5,6.703
+Baseline (train median),secondary,3_10,Batch 3,5.3C(54%)-4C-newstructure,True,1039.0,772.5,-9.17,-266.5,25.65
+Baseline (train median),secondary,3_11,Batch 3,4.8C(80%)-4.8C-newstructure,True,1078.0,772.5,-10.158,-305.5,28.34
+Baseline (train median),secondary,3_12,Batch 3,5.6C(19%)-4.6C-newstructure,True,817.0,772.5,-8.945,-44.5,5.447
+Baseline (train median),secondary,3_13,Batch 3,5.6C(36%)-4.3C-newstructure,True,932.0,772.5,-9.088,-159.5,17.114
+Baseline (train median),secondary,3_14,Batch 3,5.6C(19%)-4.6C-newstructure,True,816.0,772.5,-9.428,-43.5,5.331
+Baseline (train median),secondary,3_15,Batch 3,5.6C(36%)-4.3C-newstructure,True,858.0,772.5,-9.21,-85.5,9.965
+Baseline (train median),secondary,3_16,Batch 3,5.9C(15%)-4.6C-newstructure,True,876.0,772.5,-9.212,-103.5,11.815
+Baseline (train median),secondary,3_17,Batch 3,4.8C(80%)-4.8C-newstructure,True,1638.0,772.5,-10.81,-865.5,52.839
+Baseline (train median),secondary,3_18,Batch 3,5.3C(54%)-4C-newstructure,True,1315.0,772.5,-10.223,-542.5,41.255
+Baseline (train median),secondary,3_19,Batch 3,5.6C(19%)-4.6C-newstructure,True,1146.0,772.5,-9.795,-373.5,32.592
+Baseline (train median),secondary,3_20,Batch 3,5.6C(36%)-4.3C-newstructure,True,1155.0,772.5,-9.606,-382.5,33.117
+Baseline (train median),secondary,3_21,Batch 3,5C(67%)-4C-newstructure,True,813.0,772.5,-9.363,-40.5,4.982
+Baseline (train median),secondary,3_22,Batch 3,3.7C(31%)-5.9C-newstructure,True,772.0,772.5,-8.53,0.5,0.065
+Baseline (train median),secondary,3_23,Batch 3,5.9C(60%)-3.1C-newstructure,True,1002.0,772.5,-9.318,-229.5,22.904
+Baseline (train median),secondary,3_25,Batch 3,5C(67%)-4C-newstructure,True,825.0,772.5,-9.568,-52.5,6.364
+Baseline (train median),secondary,3_26,Batch 3,5.3C(54%)-4C-newstructure,True,989.0,772.5,-9.548,-216.5,21.891
+Baseline (train median),secondary,3_27,Batch 3,5.6C(19%)-4.6C-newstructure,True,1028.0,772.5,-9.716,-255.5,24.854
+Baseline (train median),secondary,3_28,Batch 3,5.6C(36%)-4.3C-newstructure,True,850.0,772.5,-9.51,-77.5,9.118
+Baseline (train median),secondary,3_29,Batch 3,3.7C(31%)-5.9C-newstructure,True,541.0,772.5,-7.948,231.5,42.791
+Baseline (train median),secondary,3_30,Batch 3,5.9C(15%)-4.6C-newstructure,True,858.0,772.5,-9.357,-85.5,9.965
+Baseline (train median),secondary,3_31,Batch 3,5.3C(54%)-4C-newstructure,True,935.0,772.5,-9.441,-162.5,17.38
+Baseline (train median),secondary,3_32,Batch 3,5.9C(60%)-3.1C-newstructure,True,731.0,772.5,-8.841,41.5,5.677
+Baseline (train median),secondary,3_34,Batch 3,5C(67%)-4C-newstructure,True,1284.0,772.5,-10.122,-511.5,39.836
+Baseline (train median),secondary,3_35,Batch 3,5.3C(54%)-4C-newstructure,True,1158.0,772.5,-9.914,-385.5,33.29
+Baseline (train median),secondary,3_36,Batch 3,5.6C(19%)-4.6C-newstructure,True,1093.0,772.5,-9.751,-320.5,29.323
+Baseline (train median),secondary,3_37,Batch 3,5.6C(36%)-4.3C-newstructure,True,923.0,772.5,-9.794,-150.5,16.306
+Baseline (train median),secondary,3_38,Batch 3,4.8C(80%)-4.8C-newstructure,True,1390.0,772.5,-11.741,-617.5,44.424
+Baseline (train median),secondary,3_39,Batch 3,5C(67%)-4C-newstructure,True,1935.0,772.5,-9.998,-1162.5,60.078
+Baseline (train median),secondary,3_40,Batch 3,5.3C(54%)-4C-newstructure,True,1156.0,772.5,-10.257,-383.5,33.175
+Baseline (train median),secondary,3_41,Batch 3,5.6C(19%)-4.6C-newstructure,True,796.0,772.5,-9.89,-23.5,2.952
+Baseline (train median),secondary,3_42,Batch 3,5.6C(36%)-4.3C-newstructure,True,786.0,772.5,-9.716,-13.5,1.718
+Baseline (train median),secondary,3_43,Batch 3,4.8C(80%)-4.8C-newstructure,True,1642.0,772.5,-10.007,-869.5,52.954
+Baseline (train median),secondary,3_44,Batch 3,5C(67%)-4C-newstructure,True,1046.0,772.5,-9.94,-273.5,26.147
+Baseline (train median),secondary,3_45,Batch 3,5.3C(54%)-4C-newstructure,True,940.0,772.5,-9.513,-167.5,17.819
+Baseline (train median),secondary,3_46,Batch 3,4.8C(80%)-4.8C-newstructure,True,1801.0,772.5,-10.41,-1028.5,57.107
+Linear (ln Var ΔQ),train,1_06,Batch 1,4.4C(80%)-4.4C,False,1074.0,993.23,-9.622,-80.77,7.521
+Linear (ln Var ΔQ),train,1_07,Batch 1,4.8C(80%)-4.8C,False,636.0,776.79,-8.678,140.79,22.137
+Linear (ln Var ΔQ),train,1_08,Batch 1,4.8C(80%)-4.8C,False,870.0,800.339,-8.781,-69.661,8.007
+Linear (ln Var ΔQ),train,1_10,Batch 1,5.4C(40%)-3.6C,False,1054.0,930.148,-9.347,-123.852,11.751
+Linear (ln Var ΔQ),train,1_12,Batch 1,5.4C(50%)-3C,False,788.0,976.346,-9.549,188.346,23.902
+Linear (ln Var ΔQ),train,1_15,Batch 1,5.4C(60%)-3C,False,880.0,923.12,-9.316,43.12,4.9
+Linear (ln Var ΔQ),train,1_16,Batch 1,5.4C(60%)-3C,False,719.0,908.275,-9.252,189.275,26.325
+Linear (ln Var ΔQ),train,1_17,Batch 1,5.4C(60%)-3.6C,False,862.0,951.28,-9.439,89.28,10.357
+Linear (ln Var ΔQ),train,1_18,Batch 1,5.4C(60%)-3.6C,False,857.0,883.047,-9.142,26.047,3.039
+Linear (ln Var ΔQ),train,1_19,Batch 1,5.4C(70%)-3C,False,691.0,714.077,-8.405,23.077,3.34
+Linear (ln Var ΔQ),train,1_20,Batch 1,5.4C(70%)-3C,False,788.0,698.148,-8.335,-89.852,11.403
+Linear (ln Var ΔQ),train,1_21,Batch 1,5.4C(80%)-5.4C,False,534.0,564.763,-7.753,30.763,5.761
+Linear (ln Var ΔQ),train,1_22,Batch 1,5.4C(80%)-5.4C,False,559.0,555.842,-7.714,-3.158,0.565
+Linear (ln Var ΔQ),train,1_24,Batch 1,6C(30%)-3.6C,False,1014.0,920.335,-9.304,-93.665,9.237
+Linear (ln Var ΔQ),train,1_25,Batch 1,6C(40%)-3C,False,1017.0,866.419,-9.069,-150.581,14.806
+Linear (ln Var ΔQ),train,1_26,Batch 1,6C(40%)-3C,False,854.0,913.522,-9.275,59.522,6.97
+Linear (ln Var ΔQ),train,1_27,Batch 1,6C(40%)-3.6C,False,870.0,790.696,-8.739,-79.304,9.115
+Linear (ln Var ΔQ),train,1_28,Batch 1,6C(40%)-3.6C,False,842.0,821.569,-8.873,-20.431,2.426
+Linear (ln Var ΔQ),train,1_29,Batch 1,6C(50%)-3C,False,860.0,816.823,-8.853,-43.177,5.021
+Linear (ln Var ΔQ),train,1_30,Batch 1,6C(50%)-3C,False,917.0,813.428,-8.838,-103.572,11.295
+Linear (ln Var ΔQ),train,1_31,Batch 1,6C(50%)-3.6C,False,709.0,764.026,-8.622,55.026,7.761
+Linear (ln Var ΔQ),train,1_32,Batch 1,6C(50%)-3.6C,False,876.0,781.464,-8.699,-94.536,10.792
+Linear (ln Var ΔQ),train,1_33,Batch 1,6C(60%)-3C,False,731.0,712.167,-8.396,-18.833,2.576
+Linear (ln Var ΔQ),train,1_34,Batch 1,6C(60%)-3C,False,757.0,723.039,-8.444,-33.961,4.486
+Linear (ln Var ΔQ),train,1_35,Batch 1,7C(30%)-3.6C,False,742.0,818.884,-8.862,76.884,10.362
+Linear (ln Var ΔQ),train,1_36,Batch 1,7C(30%)-3.6C,False,703.0,778.758,-8.687,75.758,10.776
+Linear (ln Var ΔQ),train,1_37,Batch 1,7C(40%)-3C,False,704.0,724.329,-8.449,20.329,2.888
+Linear (ln Var ΔQ),train,1_38,Batch 1,7C(40%)-3C,False,648.0,726.671,-8.46,78.671,12.141
+Linear (ln Var ΔQ),train,1_39,Batch 1,7C(40%)-3.6C,False,617.0,599.505,-7.905,-17.495,2.836
+Linear (ln Var ΔQ),train,1_40,Batch 1,7C(40%)-3.6C,False,625.0,637.242,-8.069,12.242,1.959
+Linear (ln Var ΔQ),train,1_41,Batch 1,8C(15%)-3.6C,False,966.0,927.946,-9.337,-38.054,3.939
+Linear (ln Var ΔQ),train,1_42,Batch 1,8C(15%)-3.6C,False,1051.0,936.552,-9.375,-114.448,10.889
+Linear (ln Var ΔQ),train,1_43,Batch 1,8C(25%)-3.6C,False,702.0,722.404,-8.441,20.404,2.907
+Linear (ln Var ΔQ),train,1_44,Batch 1,8C(25%)-3.6C,False,651.0,723.42,-8.445,72.42,11.124
+Linear (ln Var ΔQ),train,1_45,Batch 1,8C(35%)-3.6C,False,616.0,592.986,-7.876,-23.014,3.736
+Linear (ln Var ΔQ),train,1_46,Batch 1,8C(35%)-3.6C,False,599.0,595.41,-7.887,-3.59,0.599
+Linear (ln Var ΔQ),test,2_01,Batch 2,5.2C(58%)-4C,False,477.0,628.126,-8.03,151.126,31.683
+Linear (ln Var ΔQ),test,2_02,Batch 2,5.6C(26%)-4.5C,False,491.0,528.24,-7.594,37.24,7.584
+Linear (ln Var ΔQ),test,2_03,Batch 2,5.2C(50%)-4.25C,False,424.0,613.864,-7.968,189.864,44.779
+Linear (ln Var ΔQ),test,2_04,Batch 2,4.65C(44%)-5C,False,499.0,632.865,-8.05,133.865,26.827
+Linear (ln Var ΔQ),test,2_05,Batch 2,4.65C(69%)-6C,False,444.0,493.639,-7.443,49.639,11.18
+Linear (ln Var ΔQ),test,2_06,Batch 2,3.6C(30%)-6C,False,416.0,416.235,-7.106,0.235,0.057
+Linear (ln Var ΔQ),test,2_07,Batch 2,3.6C(9%)-5C,False,393.0,650.707,-8.128,257.707,65.574
+Linear (ln Var ΔQ),test,2_08,Batch 2,4.8C(80%)-4.8C-newstructure,True,777.0,1021.099,-9.744,244.099,31.416
+Linear (ln Var ΔQ),test,2_09,Batch 2,5.2C(58%)-4C-newstructure,True,904.0,952.869,-9.446,48.869,5.406
+Linear (ln Var ΔQ),test,2_10,Batch 2,5.6C(26%)-4.5C-newstructure,True,791.0,1080.622,-10.003,289.622,36.615
+Linear (ln Var ΔQ),test,2_11,Batch 2,4.8C(80%)-4.8C,False,492.0,608.929,-7.946,116.929,23.766
+Linear (ln Var ΔQ),test,2_12,Batch 2,5.2C(50%)-4.25C,False,449.0,627.138,-8.025,178.138,39.674
+Linear (ln Var ΔQ),test,2_13,Batch 2,4.65C(44%)-5C,False,466.0,459.569,-7.295,-6.431,1.38
+Linear (ln Var ΔQ),test,2_14,Batch 2,4.65C(69%)-6C,False,460.0,552.733,-7.701,92.733,20.159
+Linear (ln Var ΔQ),test,2_15,Batch 2,3.6C(30%)-6C,False,426.0,433.465,-7.181,7.465,1.752
+Linear (ln Var ΔQ),test,2_16,Batch 2,3.6C(9%)-5C,False,396.0,643.428,-8.096,247.428,62.482
+Linear (ln Var ΔQ),test,2_17,Batch 2,4.8C(80%)-4.8C,False,472.0,632.146,-8.047,160.146,33.929
+Linear (ln Var ΔQ),test,2_18,Batch 2,5.6C(26%)-4.5C,False,471.0,635.03,-8.06,164.03,34.826
+Linear (ln Var ΔQ),test,2_19,Batch 2,5.2C(50%)-4.25C,False,449.0,744.284,-8.536,295.284,65.765
+Linear (ln Var ΔQ),test,2_20,Batch 2,6C(60%)-3C,False,392.0,525.023,-7.58,133.023,33.934
+Linear (ln Var ΔQ),test,2_21,Batch 2,5.2C(58%)-4C,False,489.0,603.864,-7.924,114.864,23.49
+Linear (ln Var ΔQ),test,2_22,Batch 2,6C(60%)-3C,False,408.0,543.352,-7.66,135.352,33.175
+Linear (ln Var ΔQ),test,2_25,Batch 2,4.8C(80%)-4.8C,False,514.0,709.222,-8.383,195.222,37.981
+Linear (ln Var ΔQ),test,2_26,Batch 2,5.2C(58%)-4C,False,493.0,653.05,-8.138,160.05,32.464
+Linear (ln Var ΔQ),test,2_27,Batch 2,5.6C(26%)-4.5C,False,450.0,488.12,-7.419,38.12,8.471
+Linear (ln Var ΔQ),test,2_28,Batch 2,5.2C(50%)-4.25C,False,474.0,627.566,-8.027,153.566,32.398
+Linear (ln Var ΔQ),test,2_29,Batch 2,4.8C(80%)-4.8C,False,437.0,594.417,-7.883,157.417,36.022
+Linear (ln Var ΔQ),test,2_30,Batch 2,5.2C(58%)-4C,False,452.0,639.203,-8.078,187.203,41.417
+Linear (ln Var ΔQ),test,2_31,Batch 2,5.6C(26%)-4.5C,False,412.0,468.776,-7.335,56.776,13.781
+Linear (ln Var ΔQ),test,2_32,Batch 2,5.6C(26%)-4.5C,False,425.0,556.909,-7.719,131.909,31.037
+Linear (ln Var ΔQ),test,2_33,Batch 2,4.8C(80%)-4.8C-newstructure,True,809.0,968.201,-9.513,159.201,19.679
+Linear (ln Var ΔQ),test,2_34,Batch 2,5.2C(58%)-4C-newstructure,True,1140.0,1021.077,-9.744,-118.923,10.432
+Linear (ln Var ΔQ),test,2_35,Batch 2,5.6C(26%)-4.5C-newstructure,True,1186.0,1135.608,-10.243,-50.392,4.249
+Linear (ln Var ΔQ),test,2_42,Batch 2,5.6C(26%)-4.5C,False,442.0,461.89,-7.305,19.89,4.5
+Linear (ln Var ΔQ),test,2_43,Batch 2,5.2C(50%)-4.25C,False,474.0,625.657,-8.019,151.657,31.995
+Linear (ln Var ΔQ),test,2_44,Batch 2,4.8C(80%)-4.8C-newstructure,True,1029.0,1042.274,-9.836,13.274,1.29
+Linear (ln Var ΔQ),test,2_45,Batch 2,5.2C(58%)-4C-newstructure,True,841.0,1091.232,-10.05,250.232,29.754
+Linear (ln Var ΔQ),test,2_46,Batch 2,5.6C(26%)-4.5C-newstructure,True,997.0,991.296,-9.614,-5.704,0.572
+Linear (ln Var ΔQ),test,2_47,Batch 2,4.8C(80%)-4.8C,False,503.0,639.534,-8.079,136.534,27.144
+Linear (ln Var ΔQ),secondary,3_01,Batch 3,5C(67%)-4C-newstructure,True,1009.0,1028.196,-9.775,19.196,1.902
+Linear (ln Var ΔQ),secondary,3_02,Batch 3,5.3C(54%)-4C-newstructure,True,1063.0,1049.538,-9.868,-13.462,1.266
+Linear (ln Var ΔQ),secondary,3_03,Batch 3,5.6C(19%)-4.6C-newstructure,True,1267.0,1310.236,-11.005,43.236,3.412
+Linear (ln Var ΔQ),secondary,3_04,Batch 3,5.6C(36%)-4.3C-newstructure,True,1115.0,960.357,-9.479,-154.643,13.869
+Linear (ln Var ΔQ),secondary,3_05,Batch 3,5.6C(19%)-4.6C-newstructure,True,1048.0,993.012,-9.621,-54.988,5.247
+Linear (ln Var ΔQ),secondary,3_06,Batch 3,5.6C(36%)-4.3C-newstructure,True,828.0,959.204,-9.474,131.204,15.846
+Linear (ln Var ΔQ),secondary,3_07,Batch 3,3.7C(31%)-5.9C-newstructure,True,667.0,648.42,-8.118,-18.58,2.786
+Linear (ln Var ΔQ),secondary,3_08,Batch 3,4.8C(80%)-4.8C-newstructure,True,1836.0,1156.807,-10.336,-679.193,36.993
+Linear (ln Var ΔQ),secondary,3_09,Batch 3,5C(67%)-4C-newstructure,True,828.0,947.263,-9.422,119.263,14.404
+Linear (ln Var ΔQ),secondary,3_10,Batch 3,5.3C(54%)-4C-newstructure,True,1039.0,889.454,-9.17,-149.546,14.393
+Linear (ln Var ΔQ),secondary,3_11,Batch 3,4.8C(80%)-4.8C-newstructure,True,1078.0,1115.955,-10.158,37.955,3.521
+Linear (ln Var ΔQ),secondary,3_12,Batch 3,5.6C(19%)-4.6C-newstructure,True,817.0,838.049,-8.945,21.049,2.576
+Linear (ln Var ΔQ),secondary,3_13,Batch 3,5.6C(36%)-4.3C-newstructure,True,932.0,870.71,-9.088,-61.29,6.576
+Linear (ln Var ΔQ),secondary,3_14,Batch 3,5.6C(19%)-4.6C-newstructure,True,816.0,948.669,-9.428,132.669,16.258
+Linear (ln Var ΔQ),secondary,3_15,Batch 3,5.6C(36%)-4.3C-newstructure,True,858.0,898.624,-9.21,40.624,4.735
+Linear (ln Var ΔQ),secondary,3_16,Batch 3,5.9C(15%)-4.6C-newstructure,True,876.0,899.161,-9.212,23.161,2.644
+Linear (ln Var ΔQ),secondary,3_17,Batch 3,4.8C(80%)-4.8C-newstructure,True,1638.0,1265.434,-10.81,-372.566,22.745
+Linear (ln Var ΔQ),secondary,3_18,Batch 3,5.3C(54%)-4C-newstructure,True,1315.0,1130.925,-10.223,-184.075,13.998
+Linear (ln Var ΔQ),secondary,3_19,Batch 3,5.6C(19%)-4.6C-newstructure,True,1146.0,1032.914,-9.795,-113.086,9.868
+Linear (ln Var ΔQ),secondary,3_20,Batch 3,5.6C(36%)-4.3C-newstructure,True,1155.0,989.568,-9.606,-165.432,14.323
+Linear (ln Var ΔQ),secondary,3_21,Batch 3,5C(67%)-4C-newstructure,True,813.0,933.823,-9.363,120.823,14.861
+Linear (ln Var ΔQ),secondary,3_22,Batch 3,3.7C(31%)-5.9C-newstructure,True,772.0,742.713,-8.53,-29.287,3.794
+Linear (ln Var ΔQ),secondary,3_23,Batch 3,5.9C(60%)-3.1C-newstructure,True,1002.0,923.517,-9.318,-78.483,7.833
+Linear (ln Var ΔQ),secondary,3_25,Batch 3,5C(67%)-4C-newstructure,True,825.0,980.759,-9.568,155.759,18.88
+Linear (ln Var ΔQ),secondary,3_26,Batch 3,5.3C(54%)-4C-newstructure,True,989.0,976.169,-9.548,-12.831,1.297
+Linear (ln Var ΔQ),secondary,3_27,Batch 3,5.6C(19%)-4.6C-newstructure,True,1028.0,1014.678,-9.716,-13.322,1.296
+Linear (ln Var ΔQ),secondary,3_28,Batch 3,5.6C(36%)-4.3C-newstructure,True,850.0,967.497,-9.51,117.497,13.823
+Linear (ln Var ΔQ),secondary,3_29,Batch 3,3.7C(31%)-5.9C-newstructure,True,541.0,609.329,-7.948,68.329,12.63
+Linear (ln Var ΔQ),secondary,3_30,Batch 3,5.9C(15%)-4.6C-newstructure,True,858.0,932.361,-9.357,74.361,8.667
+Linear (ln Var ΔQ),secondary,3_31,Batch 3,5.3C(54%)-4C-newstructure,True,935.0,951.709,-9.441,16.709,1.787
+Linear (ln Var ΔQ),secondary,3_32,Batch 3,5.9C(60%)-3.1C-newstructure,True,731.0,814.126,-8.841,83.126,11.372
+Linear (ln Var ΔQ),secondary,3_34,Batch 3,5C(67%)-4C-newstructure,True,1284.0,1107.795,-10.122,-176.205,13.723
+Linear (ln Var ΔQ),secondary,3_35,Batch 3,5.3C(54%)-4C-newstructure,True,1158.0,1060.158,-9.914,-97.842,8.449
+Linear (ln Var ΔQ),secondary,3_36,Batch 3,5.6C(19%)-4.6C-newstructure,True,1093.0,1022.782,-9.751,-70.218,6.424
+Linear (ln Var ΔQ),secondary,3_37,Batch 3,5.6C(36%)-4.3C-newstructure,True,923.0,1032.6,-9.794,109.6,11.874
+Linear (ln Var ΔQ),secondary,3_38,Batch 3,4.8C(80%)-4.8C-newstructure,True,1390.0,1478.887,-11.741,88.887,6.395
+Linear (ln Var ΔQ),secondary,3_39,Batch 3,5C(67%)-4C-newstructure,True,1935.0,1079.37,-9.998,-855.63,44.219
+Linear (ln Var ΔQ),secondary,3_40,Batch 3,5.3C(54%)-4C-newstructure,True,1156.0,1138.802,-10.257,-17.198,1.488
+Linear (ln Var ΔQ),secondary,3_41,Batch 3,5.6C(19%)-4.6C-newstructure,True,796.0,1054.588,-9.89,258.588,32.486
+Linear (ln Var ΔQ),secondary,3_42,Batch 3,5.6C(36%)-4.3C-newstructure,True,786.0,1014.679,-9.716,228.679,29.094
+Linear (ln Var ΔQ),secondary,3_43,Batch 3,4.8C(80%)-4.8C-newstructure,True,1642.0,1081.556,-10.007,-560.444,34.132
+Linear (ln Var ΔQ),secondary,3_44,Batch 3,5C(67%)-4C-newstructure,True,1046.0,1066.011,-9.94,20.011,1.913
+Linear (ln Var ΔQ),secondary,3_45,Batch 3,5.3C(54%)-4C-newstructure,True,940.0,968.216,-9.513,28.216,3.002
+Linear (ln Var ΔQ),secondary,3_46,Batch 3,4.8C(80%)-4.8C-newstructure,True,1801.0,1173.758,-10.41,-627.242,34.827
+Ridge (extended),train,1_06,Batch 1,4.4C(80%)-4.4C,False,1074.0,1009.553,-9.622,-64.447,6.001
+Ridge (extended),train,1_07,Batch 1,4.8C(80%)-4.8C,False,636.0,756.578,-8.678,120.578,18.959
+Ridge (extended),train,1_08,Batch 1,4.8C(80%)-4.8C,False,870.0,890.994,-8.781,20.994,2.413
+Ridge (extended),train,1_10,Batch 1,5.4C(40%)-3.6C,False,1054.0,983.24,-9.347,-70.76,6.713
+Ridge (extended),train,1_12,Batch 1,5.4C(50%)-3C,False,788.0,835.708,-9.549,47.708,6.054
+Ridge (extended),train,1_15,Batch 1,5.4C(60%)-3C,False,880.0,877.459,-9.316,-2.541,0.289
+Ridge (extended),train,1_16,Batch 1,5.4C(60%)-3C,False,719.0,801.364,-9.252,82.364,11.455
+Ridge (extended),train,1_17,Batch 1,5.4C(60%)-3.6C,False,862.0,994.477,-9.439,132.477,15.369
+Ridge (extended),train,1_18,Batch 1,5.4C(60%)-3.6C,False,857.0,843.247,-9.142,-13.753,1.605
+Ridge (extended),train,1_19,Batch 1,5.4C(70%)-3C,False,691.0,638.736,-8.405,-52.264,7.564
+Ridge (extended),train,1_20,Batch 1,5.4C(70%)-3C,False,788.0,724.337,-8.335,-63.663,8.079
+Ridge (extended),train,1_21,Batch 1,5.4C(80%)-5.4C,False,534.0,545.778,-7.753,11.778,2.206
+Ridge (extended),train,1_22,Batch 1,5.4C(80%)-5.4C,False,559.0,580.622,-7.714,21.622,3.868
+Ridge (extended),train,1_24,Batch 1,6C(30%)-3.6C,False,1014.0,940.813,-9.304,-73.187,7.218
+Ridge (extended),train,1_25,Batch 1,6C(40%)-3C,False,1017.0,838.015,-9.069,-178.985,17.599
+Ridge (extended),train,1_26,Batch 1,6C(40%)-3C,False,854.0,900.452,-9.275,46.452,5.439
+Ridge (extended),train,1_27,Batch 1,6C(40%)-3.6C,False,870.0,843.257,-8.739,-26.743,3.074
+Ridge (extended),train,1_28,Batch 1,6C(40%)-3.6C,False,842.0,818.785,-8.873,-23.215,2.757
+Ridge (extended),train,1_29,Batch 1,6C(50%)-3C,False,860.0,800.808,-8.853,-59.192,6.883
+Ridge (extended),train,1_30,Batch 1,6C(50%)-3C,False,917.0,810.465,-8.838,-106.535,11.618
+Ridge (extended),train,1_31,Batch 1,6C(50%)-3.6C,False,709.0,761.751,-8.622,52.751,7.44
+Ridge (extended),train,1_32,Batch 1,6C(50%)-3.6C,False,876.0,882.381,-8.699,6.381,0.728
+Ridge (extended),train,1_33,Batch 1,6C(60%)-3C,False,731.0,693.97,-8.396,-37.03,5.066
+Ridge (extended),train,1_34,Batch 1,6C(60%)-3C,False,757.0,800.583,-8.444,43.583,5.757
+Ridge (extended),train,1_35,Batch 1,7C(30%)-3.6C,False,742.0,797.825,-8.862,55.825,7.524
+Ridge (extended),train,1_36,Batch 1,7C(30%)-3.6C,False,703.0,718.497,-8.687,15.497,2.204
+Ridge (extended),train,1_37,Batch 1,7C(40%)-3C,False,704.0,707.573,-8.449,3.573,0.508
+Ridge (extended),train,1_38,Batch 1,7C(40%)-3C,False,648.0,691.934,-8.46,43.934,6.78
+Ridge (extended),train,1_39,Batch 1,7C(40%)-3.6C,False,617.0,570.322,-7.905,-46.678,7.565
+Ridge (extended),train,1_40,Batch 1,7C(40%)-3.6C,False,625.0,648.685,-8.069,23.685,3.79
+Ridge (extended),train,1_41,Batch 1,8C(15%)-3.6C,False,966.0,985.834,-9.337,19.834,2.053
+Ridge (extended),train,1_42,Batch 1,8C(15%)-3.6C,False,1051.0,961.291,-9.375,-89.709,8.536
+Ridge (extended),train,1_43,Batch 1,8C(25%)-3.6C,False,702.0,717.618,-8.441,15.618,2.225
+Ridge (extended),train,1_44,Batch 1,8C(25%)-3.6C,False,651.0,652.635,-8.445,1.635,0.251
+Ridge (extended),train,1_45,Batch 1,8C(35%)-3.6C,False,616.0,625.434,-7.876,9.434,1.531
+Ridge (extended),train,1_46,Batch 1,8C(35%)-3.6C,False,599.0,622.244,-7.887,23.244,3.881
+Ridge (extended),test,2_01,Batch 2,5.2C(58%)-4C,False,477.0,742.383,-8.03,265.383,55.636
+Ridge (extended),test,2_02,Batch 2,5.6C(26%)-4.5C,False,491.0,650.191,-7.594,159.191,32.422
+Ridge (extended),test,2_03,Batch 2,5.2C(50%)-4.25C,False,424.0,565.318,-7.968,141.318,33.33
+Ridge (extended),test,2_04,Batch 2,4.65C(44%)-5C,False,499.0,677.047,-8.05,178.047,35.681
+Ridge (extended),test,2_05,Batch 2,4.65C(69%)-6C,False,444.0,540.899,-7.443,96.899,21.824
+Ridge (extended),test,2_06,Batch 2,3.6C(30%)-6C,False,416.0,517.542,-7.106,101.542,24.409
+Ridge (extended),test,2_07,Batch 2,3.6C(9%)-5C,False,393.0,650.587,-8.128,257.587,65.544
+Ridge (extended),test,2_08,Batch 2,4.8C(80%)-4.8C-newstructure,True,777.0,1153.345,-9.744,376.345,48.436
+Ridge (extended),test,2_09,Batch 2,5.2C(58%)-4C-newstructure,True,904.0,1099.114,-9.446,195.114,21.583
+Ridge (extended),test,2_10,Batch 2,5.6C(26%)-4.5C-newstructure,True,791.0,1370.558,-10.003,579.558,73.269
+Ridge (extended),test,2_11,Batch 2,4.8C(80%)-4.8C,False,492.0,754.03,-7.946,262.03,53.258
+Ridge (extended),test,2_12,Batch 2,5.2C(50%)-4.25C,False,449.0,686.801,-8.025,237.801,52.962
+Ridge (extended),test,2_13,Batch 2,4.65C(44%)-5C,False,466.0,581.007,-7.295,115.007,24.68
+Ridge (extended),test,2_14,Batch 2,4.65C(69%)-6C,False,460.0,625.042,-7.701,165.042,35.879
+Ridge (extended),test,2_15,Batch 2,3.6C(30%)-6C,False,426.0,497.41,-7.181,71.41,16.763
+Ridge (extended),test,2_16,Batch 2,3.6C(9%)-5C,False,396.0,560.277,-8.096,164.277,41.484
+Ridge (extended),test,2_17,Batch 2,4.8C(80%)-4.8C,False,472.0,700.965,-8.047,228.965,48.509
+Ridge (extended),test,2_18,Batch 2,5.6C(26%)-4.5C,False,471.0,667.869,-8.06,196.869,41.798
+Ridge (extended),test,2_19,Batch 2,5.2C(50%)-4.25C,False,449.0,680.281,-8.536,231.281,51.51
+Ridge (extended),test,2_20,Batch 2,6C(60%)-3C,False,392.0,580.104,-7.58,188.104,47.986
+Ridge (extended),test,2_21,Batch 2,5.2C(58%)-4C,False,489.0,698.3,-7.924,209.3,42.802
+Ridge (extended),test,2_22,Batch 2,6C(60%)-3C,False,408.0,615.423,-7.66,207.423,50.839
+Ridge (extended),test,2_25,Batch 2,4.8C(80%)-4.8C,False,514.0,787.336,-8.383,273.336,53.178
+Ridge (extended),test,2_26,Batch 2,5.2C(58%)-4C,False,493.0,757.408,-8.138,264.408,53.632
+Ridge (extended),test,2_27,Batch 2,5.6C(26%)-4.5C,False,450.0,627.288,-7.419,177.288,39.397
+Ridge (extended),test,2_28,Batch 2,5.2C(50%)-4.25C,False,474.0,682.255,-8.027,208.255,43.936
+Ridge (extended),test,2_29,Batch 2,4.8C(80%)-4.8C,False,437.0,651.394,-7.883,214.394,49.061
+Ridge (extended),test,2_30,Batch 2,5.2C(58%)-4C,False,452.0,749.993,-8.078,297.993,65.928
+Ridge (extended),test,2_31,Batch 2,5.6C(26%)-4.5C,False,412.0,585.123,-7.335,173.123,42.02
+Ridge (extended),test,2_32,Batch 2,5.6C(26%)-4.5C,False,425.0,625.648,-7.719,200.648,47.211
+Ridge (extended),test,2_33,Batch 2,4.8C(80%)-4.8C-newstructure,True,809.0,1114.474,-9.513,305.474,37.759
+Ridge (extended),test,2_34,Batch 2,5.2C(58%)-4C-newstructure,True,1140.0,1087.982,-9.744,-52.018,4.563
+Ridge (extended),test,2_35,Batch 2,5.6C(26%)-4.5C-newstructure,True,1186.0,1153.324,-10.243,-32.676,2.755
+Ridge (extended),test,2_42,Batch 2,5.6C(26%)-4.5C,False,442.0,596.125,-7.305,154.125,34.87
+Ridge (extended),test,2_43,Batch 2,5.2C(50%)-4.25C,False,474.0,738.096,-8.019,264.096,55.717
+Ridge (extended),test,2_44,Batch 2,4.8C(80%)-4.8C-newstructure,True,1029.0,1339.522,-9.836,310.522,30.177
+Ridge (extended),test,2_45,Batch 2,5.2C(58%)-4C-newstructure,True,841.0,1377.861,-10.05,536.861,63.836
+Ridge (extended),test,2_46,Batch 2,5.6C(26%)-4.5C-newstructure,True,997.0,1279.626,-9.614,282.626,28.348
+Ridge (extended),test,2_47,Batch 2,4.8C(80%)-4.8C,False,503.0,715.042,-8.079,212.042,42.155
+Ridge (extended),secondary,3_01,Batch 3,5C(67%)-4C-newstructure,True,1009.0,988.875,-9.775,-20.125,1.995
+Ridge (extended),secondary,3_02,Batch 3,5.3C(54%)-4C-newstructure,True,1063.0,1001.203,-9.868,-61.797,5.813
+Ridge (extended),secondary,3_03,Batch 3,5.6C(19%)-4.6C-newstructure,True,1267.0,1378.301,-11.005,111.301,8.785
+Ridge (extended),secondary,3_04,Batch 3,5.6C(36%)-4.3C-newstructure,True,1115.0,860.591,-9.479,-254.409,22.817
+Ridge (extended),secondary,3_05,Batch 3,5.6C(19%)-4.6C-newstructure,True,1048.0,973.246,-9.621,-74.754,7.133
+Ridge (extended),secondary,3_06,Batch 3,5.6C(36%)-4.3C-newstructure,True,828.0,781.902,-9.474,-46.098,5.567
+Ridge (extended),secondary,3_07,Batch 3,3.7C(31%)-5.9C-newstructure,True,667.0,557.473,-8.118,-109.527,16.421
+Ridge (extended),secondary,3_08,Batch 3,4.8C(80%)-4.8C-newstructure,True,1836.0,1169.319,-10.336,-666.681,36.312
+Ridge (extended),secondary,3_09,Batch 3,5C(67%)-4C-newstructure,True,828.0,864.432,-9.422,36.432,4.4
+Ridge (extended),secondary,3_10,Batch 3,5.3C(54%)-4C-newstructure,True,1039.0,830.216,-9.17,-208.784,20.095
+Ridge (extended),secondary,3_11,Batch 3,4.8C(80%)-4.8C-newstructure,True,1078.0,1050.616,-10.158,-27.384,2.54
+Ridge (extended),secondary,3_12,Batch 3,5.6C(19%)-4.6C-newstructure,True,817.0,758.412,-8.945,-58.588,7.171
+Ridge (extended),secondary,3_13,Batch 3,5.6C(36%)-4.3C-newstructure,True,932.0,833.458,-9.088,-98.542,10.573
+Ridge (extended),secondary,3_14,Batch 3,5.6C(19%)-4.6C-newstructure,True,816.0,876.014,-9.428,60.014,7.355
+Ridge (extended),secondary,3_15,Batch 3,5.6C(36%)-4.3C-newstructure,True,858.0,867.386,-9.21,9.386,1.094
+Ridge (extended),secondary,3_16,Batch 3,5.9C(15%)-4.6C-newstructure,True,876.0,828.553,-9.212,-47.447,5.416
+Ridge (extended),secondary,3_17,Batch 3,4.8C(80%)-4.8C-newstructure,True,1638.0,1305.768,-10.81,-332.232,20.283
+Ridge (extended),secondary,3_18,Batch 3,5.3C(54%)-4C-newstructure,True,1315.0,1100.036,-10.223,-214.964,16.347
+Ridge (extended),secondary,3_19,Batch 3,5.6C(19%)-4.6C-newstructure,True,1146.0,993.514,-9.795,-152.486,13.306
+Ridge (extended),secondary,3_20,Batch 3,5.6C(36%)-4.3C-newstructure,True,1155.0,964.984,-9.606,-190.016,16.452
+Ridge (extended),secondary,3_21,Batch 3,5C(67%)-4C-newstructure,True,813.0,845.464,-9.363,32.464,3.993
+Ridge (extended),secondary,3_22,Batch 3,3.7C(31%)-5.9C-newstructure,True,772.0,667.93,-8.53,-104.07,13.481
+Ridge (extended),secondary,3_23,Batch 3,5.9C(60%)-3.1C-newstructure,True,1002.0,776.301,-9.318,-225.699,22.525
+Ridge (extended),secondary,3_25,Batch 3,5C(67%)-4C-newstructure,True,825.0,778.502,-9.568,-46.498,5.636
+Ridge (extended),secondary,3_26,Batch 3,5.3C(54%)-4C-newstructure,True,989.0,872.159,-9.548,-116.841,11.814
+Ridge (extended),secondary,3_27,Batch 3,5.6C(19%)-4.6C-newstructure,True,1028.0,1006.024,-9.716,-21.976,2.138
+Ridge (extended),secondary,3_28,Batch 3,5.6C(36%)-4.3C-newstructure,True,850.0,858.505,-9.51,8.505,1.001
+Ridge (extended),secondary,3_29,Batch 3,3.7C(31%)-5.9C-newstructure,True,541.0,487.799,-7.948,-53.201,9.834
+Ridge (extended),secondary,3_30,Batch 3,5.9C(15%)-4.6C-newstructure,True,858.0,860.772,-9.357,2.772,0.323
+Ridge (extended),secondary,3_31,Batch 3,5.3C(54%)-4C-newstructure,True,935.0,897.637,-9.441,-37.363,3.996
+Ridge (extended),secondary,3_32,Batch 3,5.9C(60%)-3.1C-newstructure,True,731.0,737.303,-8.841,6.303,0.862
+Ridge (extended),secondary,3_34,Batch 3,5C(67%)-4C-newstructure,True,1284.0,1034.411,-10.122,-249.589,19.438
+Ridge (extended),secondary,3_35,Batch 3,5.3C(54%)-4C-newstructure,True,1158.0,980.936,-9.914,-177.064,15.291
+Ridge (extended),secondary,3_36,Batch 3,5.6C(19%)-4.6C-newstructure,True,1093.0,941.419,-9.751,-151.581,13.868
+Ridge (extended),secondary,3_37,Batch 3,5.6C(36%)-4.3C-newstructure,True,923.0,916.865,-9.794,-6.135,0.665
+Ridge (extended),secondary,3_38,Batch 3,4.8C(80%)-4.8C-newstructure,True,1390.0,1554.921,-11.741,164.921,11.865
+Ridge (extended),secondary,3_39,Batch 3,5C(67%)-4C-newstructure,True,1935.0,1075.894,-9.998,-859.106,44.398
+Ridge (extended),secondary,3_40,Batch 3,5.3C(54%)-4C-newstructure,True,1156.0,982.427,-10.257,-173.573,15.015
+Ridge (extended),secondary,3_41,Batch 3,5.6C(19%)-4.6C-newstructure,True,796.0,967.316,-9.89,171.316,21.522
+Ridge (extended),secondary,3_42,Batch 3,5.6C(36%)-4.3C-newstructure,True,786.0,843.843,-9.716,57.843,7.359
+Ridge (extended),secondary,3_43,Batch 3,4.8C(80%)-4.8C-newstructure,True,1642.0,1051.577,-10.007,-590.423,35.958
+Ridge (extended),secondary,3_44,Batch 3,5C(67%)-4C-newstructure,True,1046.0,1057.708,-9.94,11.708,1.119
+Ridge (extended),secondary,3_45,Batch 3,5.3C(54%)-4C-newstructure,True,940.0,928.175,-9.513,-11.825,1.258
+Ridge (extended),secondary,3_46,Batch 3,4.8C(80%)-4.8C-newstructure,True,1801.0,1218.202,-10.41,-582.798,32.36
+Random Forest,train,1_06,Batch 1,4.4C(80%)-4.4C,False,1074.0,952.784,-9.622,-121.216,11.286
+Random Forest,train,1_07,Batch 1,4.8C(80%)-4.8C,False,636.0,693.09,-8.678,57.09,8.976
+Random Forest,train,1_08,Batch 1,4.8C(80%)-4.8C,False,870.0,877.884,-8.781,7.884,0.906
+Random Forest,train,1_10,Batch 1,5.4C(40%)-3.6C,False,1054.0,983.308,-9.347,-70.692,6.707
+Random Forest,train,1_12,Batch 1,5.4C(50%)-3C,False,788.0,903.409,-9.549,115.409,14.646
+Random Forest,train,1_15,Batch 1,5.4C(60%)-3C,False,880.0,851.304,-9.316,-28.696,3.261
+Random Forest,train,1_16,Batch 1,5.4C(60%)-3C,False,719.0,825.207,-9.252,106.207,14.771
+Random Forest,train,1_17,Batch 1,5.4C(60%)-3.6C,False,862.0,907.004,-9.439,45.004,5.221
+Random Forest,train,1_18,Batch 1,5.4C(60%)-3.6C,False,857.0,846.194,-9.142,-10.806,1.261
+Random Forest,train,1_19,Batch 1,5.4C(70%)-3C,False,691.0,692.699,-8.405,1.699,0.246
+Random Forest,train,1_20,Batch 1,5.4C(70%)-3C,False,788.0,727.101,-8.335,-60.899,7.728
+Random Forest,train,1_21,Batch 1,5.4C(80%)-5.4C,False,534.0,601.346,-7.753,67.346,12.612
+Random Forest,train,1_22,Batch 1,5.4C(80%)-5.4C,False,559.0,602.402,-7.714,43.402,7.764
+Random Forest,train,1_24,Batch 1,6C(30%)-3.6C,False,1014.0,984.235,-9.304,-29.765,2.935
+Random Forest,train,1_25,Batch 1,6C(40%)-3C,False,1017.0,924.107,-9.069,-92.893,9.134
+Random Forest,train,1_26,Batch 1,6C(40%)-3C,False,854.0,906.329,-9.275,52.329,6.128
+Random Forest,train,1_27,Batch 1,6C(40%)-3.6C,False,870.0,868.844,-8.739,-1.156,0.133
+Random Forest,train,1_28,Batch 1,6C(40%)-3.6C,False,842.0,866.216,-8.873,24.216,2.876
+Random Forest,train,1_29,Batch 1,6C(50%)-3C,False,860.0,879.443,-8.853,19.443,2.261
+Random Forest,train,1_30,Batch 1,6C(50%)-3C,False,917.0,905.539,-8.838,-11.461,1.25
+Random Forest,train,1_31,Batch 1,6C(50%)-3.6C,False,709.0,715.303,-8.622,6.303,0.889
+Random Forest,train,1_32,Batch 1,6C(50%)-3.6C,False,876.0,822.775,-8.699,-53.225,6.076
+Random Forest,train,1_33,Batch 1,6C(60%)-3C,False,731.0,717.453,-8.396,-13.547,1.853
+Random Forest,train,1_34,Batch 1,6C(60%)-3C,False,757.0,724.82,-8.444,-32.18,4.251
+Random Forest,train,1_35,Batch 1,7C(30%)-3.6C,False,742.0,849.095,-8.862,107.095,14.433
+Random Forest,train,1_36,Batch 1,7C(30%)-3.6C,False,703.0,692.467,-8.687,-10.533,1.498
+Random Forest,train,1_37,Batch 1,7C(40%)-3C,False,704.0,707.719,-8.449,3.719,0.528
+Random Forest,train,1_38,Batch 1,7C(40%)-3C,False,648.0,682.732,-8.46,34.732,5.36
+Random Forest,train,1_39,Batch 1,7C(40%)-3.6C,False,617.0,606.277,-7.905,-10.723,1.738
+Random Forest,train,1_40,Batch 1,7C(40%)-3.6C,False,625.0,610.526,-8.069,-14.474,2.316
+Random Forest,train,1_41,Batch 1,8C(15%)-3.6C,False,966.0,969.863,-9.337,3.863,0.4
+Random Forest,train,1_42,Batch 1,8C(15%)-3.6C,False,1051.0,982.628,-9.375,-68.372,6.505
+Random Forest,train,1_43,Batch 1,8C(25%)-3.6C,False,702.0,707.852,-8.441,5.852,0.834
+Random Forest,train,1_44,Batch 1,8C(25%)-3.6C,False,651.0,679.703,-8.445,28.703,4.409
+Random Forest,train,1_45,Batch 1,8C(35%)-3.6C,False,616.0,601.729,-7.876,-14.271,2.317
+Random Forest,train,1_46,Batch 1,8C(35%)-3.6C,False,599.0,605.144,-7.887,6.144,1.026
+Random Forest,test,2_01,Batch 2,5.2C(58%)-4C,False,477.0,618.866,-8.03,141.866,29.741
+Random Forest,test,2_02,Batch 2,5.6C(26%)-4.5C,False,491.0,612.724,-7.594,121.724,24.791
+Random Forest,test,2_03,Batch 2,5.2C(50%)-4.25C,False,424.0,613.021,-7.968,189.021,44.58
+Random Forest,test,2_04,Batch 2,4.65C(44%)-5C,False,499.0,621.465,-8.05,122.465,24.542
+Random Forest,test,2_05,Batch 2,4.65C(69%)-6C,False,444.0,613.145,-7.443,169.145,38.096
+Random Forest,test,2_06,Batch 2,3.6C(30%)-6C,False,416.0,605.714,-7.106,189.714,45.604
+Random Forest,test,2_07,Batch 2,3.6C(9%)-5C,False,393.0,643.979,-8.128,250.979,63.862
+Random Forest,test,2_08,Batch 2,4.8C(80%)-4.8C-newstructure,True,777.0,899.382,-9.744,122.382,15.751
+Random Forest,test,2_09,Batch 2,5.2C(58%)-4C-newstructure,True,904.0,907.102,-9.446,3.102,0.343
+Random Forest,test,2_10,Batch 2,5.6C(26%)-4.5C-newstructure,True,791.0,919.71,-10.003,128.71,16.272
+Random Forest,test,2_11,Batch 2,4.8C(80%)-4.8C,False,492.0,616.105,-7.946,124.105,25.225
+Random Forest,test,2_12,Batch 2,5.2C(50%)-4.25C,False,449.0,618.531,-8.025,169.531,37.757
+Random Forest,test,2_13,Batch 2,4.65C(44%)-5C,False,466.0,615.403,-7.295,149.403,32.061
+Random Forest,test,2_14,Batch 2,4.65C(69%)-6C,False,460.0,615.568,-7.701,155.568,33.819
+Random Forest,test,2_15,Batch 2,3.6C(30%)-6C,False,426.0,607.551,-7.181,181.551,42.618
+Random Forest,test,2_16,Batch 2,3.6C(9%)-5C,False,396.0,614.529,-8.096,218.529,55.184
+Random Forest,test,2_17,Batch 2,4.8C(80%)-4.8C,False,472.0,618.009,-8.047,146.009,30.934
+Random Forest,test,2_18,Batch 2,5.6C(26%)-4.5C,False,471.0,610.685,-8.06,139.685,29.657
+Random Forest,test,2_19,Batch 2,5.2C(50%)-4.25C,False,449.0,704.56,-8.536,255.56,56.918
+Random Forest,test,2_20,Batch 2,6C(60%)-3C,False,392.0,625.628,-7.58,233.628,59.599
+Random Forest,test,2_21,Batch 2,5.2C(58%)-4C,False,489.0,618.456,-7.924,129.456,26.474
+Random Forest,test,2_22,Batch 2,6C(60%)-3C,False,408.0,627.867,-7.66,219.867,53.889
+Random Forest,test,2_25,Batch 2,4.8C(80%)-4.8C,False,514.0,717.436,-8.383,203.436,39.579
+Random Forest,test,2_26,Batch 2,5.2C(58%)-4C,False,493.0,641.119,-8.138,148.119,30.044
+Random Forest,test,2_27,Batch 2,5.6C(26%)-4.5C,False,450.0,613.833,-7.419,163.833,36.407
+Random Forest,test,2_28,Batch 2,5.2C(50%)-4.25C,False,474.0,618.514,-8.027,144.514,30.488
+Random Forest,test,2_29,Batch 2,4.8C(80%)-4.8C,False,437.0,616.584,-7.883,179.584,41.095
+Random Forest,test,2_30,Batch 2,5.2C(58%)-4C,False,452.0,618.866,-8.078,166.866,36.917
+Random Forest,test,2_31,Batch 2,5.6C(26%)-4.5C,False,412.0,611.273,-7.335,199.273,48.367
+Random Forest,test,2_32,Batch 2,5.6C(26%)-4.5C,False,425.0,610.856,-7.719,185.856,43.731
+Random Forest,test,2_33,Batch 2,4.8C(80%)-4.8C-newstructure,True,809.0,913.937,-9.513,104.937,12.971
+Random Forest,test,2_34,Batch 2,5.2C(58%)-4C-newstructure,True,1140.0,868.36,-9.744,-271.64,23.828
+Random Forest,test,2_35,Batch 2,5.6C(26%)-4.5C-newstructure,True,1186.0,880.588,-10.243,-305.412,25.751
+Random Forest,test,2_42,Batch 2,5.6C(26%)-4.5C,False,442.0,614.62,-7.305,172.62,39.054
+Random Forest,test,2_43,Batch 2,5.2C(50%)-4.25C,False,474.0,619.841,-8.019,145.841,30.768
+Random Forest,test,2_44,Batch 2,4.8C(80%)-4.8C-newstructure,True,1029.0,906.706,-9.836,-122.294,11.885
+Random Forest,test,2_45,Batch 2,5.2C(58%)-4C-newstructure,True,841.0,906.527,-10.05,65.527,7.792
+Random Forest,test,2_46,Batch 2,5.6C(26%)-4.5C-newstructure,True,997.0,914.2,-9.614,-82.8,8.305
+Random Forest,test,2_47,Batch 2,4.8C(80%)-4.8C,False,503.0,620.729,-8.079,117.729,23.405
+Random Forest,secondary,3_01,Batch 3,5C(67%)-4C-newstructure,True,1009.0,874.734,-9.775,-134.266,13.307
+Random Forest,secondary,3_02,Batch 3,5.3C(54%)-4C-newstructure,True,1063.0,871.687,-9.868,-191.313,17.997
+Random Forest,secondary,3_03,Batch 3,5.6C(19%)-4.6C-newstructure,True,1267.0,880.588,-11.005,-386.412,30.498
+Random Forest,secondary,3_04,Batch 3,5.6C(36%)-4.3C-newstructure,True,1115.0,878.791,-9.479,-236.209,21.185
+Random Forest,secondary,3_05,Batch 3,5.6C(19%)-4.6C-newstructure,True,1048.0,883.749,-9.621,-164.251,15.673
+Random Forest,secondary,3_06,Batch 3,5.6C(36%)-4.3C-newstructure,True,828.0,878.86,-9.474,50.86,6.142
+Random Forest,secondary,3_07,Batch 3,3.7C(31%)-5.9C-newstructure,True,667.0,611.693,-8.118,-55.307,8.292
+Random Forest,secondary,3_08,Batch 3,4.8C(80%)-4.8C-newstructure,True,1836.0,892.47,-10.336,-943.53,51.391
+Random Forest,secondary,3_09,Batch 3,5C(67%)-4C-newstructure,True,828.0,870.84,-9.422,42.84,5.174
+Random Forest,secondary,3_10,Batch 3,5.3C(54%)-4C-newstructure,True,1039.0,839.529,-9.17,-199.471,19.198
+Random Forest,secondary,3_11,Batch 3,4.8C(80%)-4.8C-newstructure,True,1078.0,892.93,-10.158,-185.07,17.168
+Random Forest,secondary,3_12,Batch 3,5.6C(19%)-4.6C-newstructure,True,817.0,841.867,-8.945,24.867,3.044
+Random Forest,secondary,3_13,Batch 3,5.6C(36%)-4.3C-newstructure,True,932.0,845.443,-9.088,-86.557,9.287
+Random Forest,secondary,3_14,Batch 3,5.6C(19%)-4.6C-newstructure,True,816.0,880.588,-9.428,64.588,7.915
+Random Forest,secondary,3_15,Batch 3,5.6C(36%)-4.3C-newstructure,True,858.0,845.518,-9.21,-12.482,1.455
+Random Forest,secondary,3_16,Batch 3,5.9C(15%)-4.6C-newstructure,True,876.0,848.297,-9.212,-27.703,3.162
+Random Forest,secondary,3_17,Batch 3,4.8C(80%)-4.8C-newstructure,True,1638.0,887.621,-10.81,-750.379,45.811
+Random Forest,secondary,3_18,Batch 3,5.3C(54%)-4C-newstructure,True,1315.0,872.899,-10.223,-442.101,33.62
+Random Forest,secondary,3_19,Batch 3,5.6C(19%)-4.6C-newstructure,True,1146.0,880.588,-9.795,-265.412,23.16
+Random Forest,secondary,3_20,Batch 3,5.6C(36%)-4.3C-newstructure,True,1155.0,878.86,-9.606,-276.14,23.908
+Random Forest,secondary,3_21,Batch 3,5C(67%)-4C-newstructure,True,813.0,868.93,-9.363,55.93,6.879
+Random Forest,secondary,3_22,Batch 3,3.7C(31%)-5.9C-newstructure,True,772.0,681.084,-8.53,-90.916,11.777
+Random Forest,secondary,3_23,Batch 3,5.9C(60%)-3.1C-newstructure,True,1002.0,860.762,-9.318,-141.238,14.096
+Random Forest,secondary,3_25,Batch 3,5C(67%)-4C-newstructure,True,825.0,873.034,-9.568,48.034,5.822
+Random Forest,secondary,3_26,Batch 3,5.3C(54%)-4C-newstructure,True,989.0,873.053,-9.548,-115.947,11.724
+Random Forest,secondary,3_27,Batch 3,5.6C(19%)-4.6C-newstructure,True,1028.0,883.708,-9.716,-144.292,14.036
+Random Forest,secondary,3_28,Batch 3,5.6C(36%)-4.3C-newstructure,True,850.0,879.085,-9.51,29.085,3.422
+Random Forest,secondary,3_29,Batch 3,3.7C(31%)-5.9C-newstructure,True,541.0,605.73,-7.948,64.73,11.965
+Random Forest,secondary,3_30,Batch 3,5.9C(15%)-4.6C-newstructure,True,858.0,889.426,-9.357,31.426,3.663
+Random Forest,secondary,3_31,Batch 3,5.3C(54%)-4C-newstructure,True,935.0,873.376,-9.441,-61.624,6.591
+Random Forest,secondary,3_32,Batch 3,5.9C(60%)-3.1C-newstructure,True,731.0,834.523,-8.841,103.523,14.162
+Random Forest,secondary,3_34,Batch 3,5C(67%)-4C-newstructure,True,1284.0,868.841,-10.122,-415.159,32.333
+Random Forest,secondary,3_35,Batch 3,5.3C(54%)-4C-newstructure,True,1158.0,871.687,-9.914,-286.313,24.725
+Random Forest,secondary,3_36,Batch 3,5.6C(19%)-4.6C-newstructure,True,1093.0,880.588,-9.751,-212.412,19.434
+Random Forest,secondary,3_37,Batch 3,5.6C(36%)-4.3C-newstructure,True,923.0,878.86,-9.794,-44.14,4.782
+Random Forest,secondary,3_38,Batch 3,4.8C(80%)-4.8C-newstructure,True,1390.0,886.952,-11.741,-503.048,36.191
+Random Forest,secondary,3_39,Batch 3,5C(67%)-4C-newstructure,True,1935.0,871.883,-9.998,-1063.117,54.941
+Random Forest,secondary,3_40,Batch 3,5.3C(54%)-4C-newstructure,True,1156.0,871.954,-10.257,-284.046,24.571
+Random Forest,secondary,3_41,Batch 3,5.6C(19%)-4.6C-newstructure,True,796.0,880.52,-9.89,84.52,10.618
+Random Forest,secondary,3_42,Batch 3,5.6C(36%)-4.3C-newstructure,True,786.0,879.224,-9.716,93.224,11.861
+Random Forest,secondary,3_43,Batch 3,4.8C(80%)-4.8C-newstructure,True,1642.0,892.673,-10.007,-749.327,45.635
+Random Forest,secondary,3_44,Batch 3,5C(67%)-4C-newstructure,True,1046.0,873.299,-9.94,-172.701,16.511
+Random Forest,secondary,3_45,Batch 3,5.3C(54%)-4C-newstructure,True,940.0,873.017,-9.513,-66.983,7.126
+Random Forest,secondary,3_46,Batch 3,4.8C(80%)-4.8C-newstructure,True,1801.0,889.912,-10.41,-911.088,50.588

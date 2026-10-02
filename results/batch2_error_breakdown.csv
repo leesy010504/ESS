@@ -1,0 +1,29 @@
+model,subgroup,mean_residual,over_predicted,n,rmse,mae,mape
+Baseline (train median),all,206.76,30,39,301.42,284.78,58.73
+Baseline (train median),short life (< 500),323.46,28,28,325.03,323.46,72.92
+Baseline (train median),life >= 500,-90.32,2,11,230.68,186.32,22.59
+Baseline (train median),below train range (< 534),319.5,30,30,321.32,319.5,71.52
+Baseline (train median),inside train range (534-1074),-105.79,0,7,141.36,105.79,11.08
+Baseline (train median),newstructure,-169.06,0,9,222.59,169.06,16.07
+Baseline (train median),original structure,319.5,30,30,321.32,319.5,71.52
+Linear (ln Var ΔQ),all,119.93,35,39,153.03,129.23,25.61
+Linear (ln Var ΔQ),short life (< 500),125.54,27,28,147.1,126.0,28.36
+Linear (ln Var ΔQ),life >= 500,105.64,8,11,167.18,137.46,18.59
+Linear (ln Var ΔQ),below train range (< 534),128.23,29,30,148.62,128.66,28.64
+Linear (ln Var ΔQ),inside train range (534-1074),142.8,6,7,182.84,144.43,17.82
+Linear (ln Var ΔQ),newstructure,92.25,6,9,166.9,131.15,15.49
+Linear (ln Var ΔQ),original structure,128.23,29,30,148.62,128.66,28.64
+Ridge (extended),all,215.87,37,39,244.86,220.21,41.41
+Ridge (extended),short life (< 500),193.99,28,28,201.9,193.99,43.18
+Ridge (extended),life >= 500,271.56,9,11,329.86,286.96,36.91
+Ridge (extended),below train range (< 534),197.24,30,30,205.02,197.24,43.48
+Ridge (extended),inside train range (534-1074),369.5,7,7,391.6,369.5,43.34
+Ridge (extended),newstructure,277.98,7,9,345.96,296.8,34.53
+Ridge (extended),original structure,197.24,30,30,205.02,197.24,43.48
+Random Forest,all,122.51,35,39,172.2,162.62,32.77
+Random Forest,short life (< 500),171.94,28,28,175.82,171.94,39.01
+Random Forest,life >= 500,-3.3,7,11,162.64,138.91,16.9
+Random Forest,below train range (< 534),171.18,30,30,175.19,171.18,38.51
+Random Forest,inside train range (534-1074),31.37,5,7,99.05,89.96,10.47
+Random Forest,newstructure,-39.72,5,9,161.84,134.09,13.66
+Random Forest,original structure,171.18,30,30,175.19,171.18,38.51

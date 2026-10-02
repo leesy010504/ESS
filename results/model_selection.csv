@@ -1,0 +1,5 @@
+model,complexity,n,rmse,mae,mape,cv_rmse,final,lowest_batch1_cv
+Baseline (train median),0,44,422.77,304.39,24.51,159.64,False,False
+Linear (ln Var ΔQ),1,44,237.71,146.47,12.08,87.59,True,False
+Ridge (extended),2,44,240.4,151.01,11.95,68.11,False,True
+Random Forest,3,44,352.67,234.38,18.2,93.98,False,False

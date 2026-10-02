@@ -1,0 +1,4 @@
+model,held_out,n_train,n,rmse,mae,mape
+Linear (ln Var ΔQ),Batch 1,83,36,102.6,88.69,11.51
+Linear (ln Var ΔQ),Batch 2,80,39,146.33,119.9,22.61
+Linear (ln Var ΔQ),Batch 3,75,44,249.25,152.96,12.22
