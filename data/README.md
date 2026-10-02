@@ -7,8 +7,8 @@
    | 파일 | 이 프로젝트에서의 이름 |
    |---|---|
    | `2017-05-12_batchdata_updated_struct_errorcorrect.mat` | Batch 1 (학습) |
-   | `2018-02-20_batchdata_updated_struct_errorcorrect.mat` | Batch 2 (평가) |
-   | `2018-04-12_batchdata_updated_struct_errorcorrect.mat` | Batch 3 (모델 선택 검증) |
+   | `2018-02-20_batchdata_updated_struct_errorcorrect.mat` | Batch 2 (필수 Test) |
+   | `2018-04-12_batchdata_updated_struct_errorcorrect.mat` | Batch 3 (추가 평가, 선택 — 모델 선택에 미사용) |
    | `2018-04-03_varcharge_…mat` | 사용하지 않음 (가변 충전 실험) |
 
 2. 프로젝트 루트에서 `python src/preprocess.py`를 실행하면 `data/processed/`에 셀 단위 표가 만들어집니다.

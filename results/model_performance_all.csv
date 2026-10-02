@@ -1,0 +1,25 @@
+model,final,target,stage,n,mape,rmse,mae,rmse_ci_low,rmse_ci_high,mape_ci_low,mape_ci_high
+Baseline (train median),False,raw,train_cv,27,19.448,172.597,149.737,,,,
+Baseline (train median),False,raw,valid,9,11.932,117.164,98.667,,,,
+Baseline (train median),False,raw,b1_full_fit,36,16.071,147.477,124.917,,,,
+Baseline (train median),False,raw,test_b2,39,58.728,301.423,284.782,278.489,322.266,50.378,66.634
+Baseline (train median),False,raw,test_b3_all,44,24.512,422.771,304.386,305.475,531.314,19.753,29.702
+Baseline (train median),False,raw,test_b3_clean,40,22.899,400.24,278.45,280.48,515.958,18.324,27.933
+Linear (ln Var ΔQ),False,raw,train_cv,27,9.455,96.471,76.401,,,,
+Linear (ln Var ΔQ),False,raw,valid,9,7.91,70.475,63.57,,,,
+Linear (ln Var ΔQ),False,raw,b1_full_fit,36,8.268,82.517,66.775,,,,
+Linear (ln Var ΔQ),False,raw,test_b2,39,25.606,153.029,129.235,127.784,175.551,20.03,30.97
+Linear (ln Var ΔQ),False,raw,test_b3_all,44,12.082,237.709,146.466,141.697,321.379,9.066,15.466
+Linear (ln Var ΔQ),False,raw,test_b3_clean,40,12.144,232.485,143.298,135.608,319.074,9.062,15.374
+Ridge (extended),True,log,train_cv,27,6.563,67.253,52.505,,,,
+Ridge (extended),True,log,valid,9,6.5,66.991,51.878,,,,
+Ridge (extended),True,log,b1_full_fit,36,5.861,61.789,47.435,,,,
+Ridge (extended),True,log,test_b2,39,41.414,244.856,220.215,204.094,286.958,36.197,46.044
+Ridge (extended),True,log,test_b3_all,44,11.945,240.404,151.012,148.28,320.632,8.959,15.128
+Ridge (extended),True,log,test_b3_clean,40,11.697,232.09,144.155,139.471,317.279,8.855,14.782
+Random Forest,False,log,train_cv,27,13.002,125.341,102.537,,,,
+Random Forest,False,log,valid,9,6.666,77.859,55.826,,,,
+Random Forest,False,log,b1_full_fit,36,4.822,51.685,38.425,,,,
+Random Forest,False,log,test_b2,39,32.102,169.999,159.859,151.908,189.484,27.702,36.508
+Random Forest,False,log,test_b3_all,44,18.487,358.642,238.666,243.187,462.455,14.441,22.989
+Random Forest,False,log,test_b3_clean,40,17.038,340.162,216.235,217.832,450.556,12.962,21.515

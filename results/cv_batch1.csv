@@ -1,8 +1,8 @@
-model,target,complexity,n_features,features,cv_rmse,cv_rmse_se,cv_mae,cv_mape,chosen_target
-Baseline (train median),raw,0,1,ln_dq_variance,159.642,1.554,136.364,17.605,True
-Linear (ln Var ΔQ),raw,1,1,ln_dq_variance,87.591,0.694,70.194,8.701,True
-Linear (ln Var ΔQ),log,1,1,ln_dq_variance,89.181,0.807,70.552,8.708,False
-Ridge (extended),raw,2,3,"ln_dq_variance, qd_100, early_qd_slope_clean",69.309,0.677,54.1,6.798,False
-Ridge (extended),log,2,3,"ln_dq_variance, qd_100, early_qd_slope_clean",68.109,0.648,53.035,6.625,True
-Random Forest,raw,3,10,"ln_dq_variance, early_qd_slope_clean, qd_100, ir_100, early_tavg_mean, c1, switch_soc, c2, charge_current_10, early_charge_time_clean",93.983,1.261,72.433,9.153,True
-Random Forest,log,3,10,"ln_dq_variance, early_qd_slope_clean, qd_100, ir_100, early_tavg_mean, c1, switch_soc, c2, charge_current_10, early_charge_time_clean",94.082,1.33,72.162,9.037,False
+model,target,complexity,n_features,features,cv_mape,cv_mape_sd,cv_rmse,cv_mae,chosen_target
+Baseline (train median),raw,0,1,ln_dq_variance,19.448,0.894,172.597,149.737,True
+Linear (ln Var ΔQ),raw,1,1,ln_dq_variance,9.455,0.335,96.471,76.401,True
+Linear (ln Var ΔQ),log,1,1,ln_dq_variance,9.655,0.315,98.323,78.106,False
+Ridge (extended),raw,2,3,"ln_dq_variance, qd_100, early_qd_slope_clean",7.205,0.557,73.002,56.721,False
+Ridge (extended),log,2,3,"ln_dq_variance, qd_100, early_qd_slope_clean",6.563,0.255,67.253,52.505,True
+Random Forest,raw,3,10,"ln_dq_variance, early_qd_slope_clean, qd_100, ir_100, early_tavg_mean, c1, switch_soc, c2, charge_current_10, early_charge_time_clean",13.528,0.719,126.462,105.607,False
+Random Forest,log,3,10,"ln_dq_variance, early_qd_slope_clean, qd_100, ir_100, early_tavg_mean, c1, switch_soc, c2, charge_current_10, early_charge_time_clean",13.002,0.832,125.341,102.537,True

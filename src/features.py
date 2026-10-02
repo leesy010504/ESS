@@ -7,6 +7,7 @@ cells and columns each model sees.
 
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -14,6 +15,11 @@ CELLS = ROOT / "data" / "processed" / "cells.csv"
 
 TRAIN, TEST, SECONDARY = "Batch 1", "Batch 2", "Batch 3"
 TARGET = "cycle_life"
+
+# Batch 3 cells dropped from the paper's secondary test set (public loading script removes
+# b3c2, 23, 32, 37, 42, 43 as 0-based indices = 1-based ids 3, 24, 33, 38, 43, 44).
+# 3_24 and 3_33 are already unlabeled here.
+BATCH3_OUTLIERS = ["3_03", "3_24", "3_33", "3_38", "3_43", "3_44"]
 
 # Single-feature baseline: ln Var[ΔQ100-10(V)] (Spearman ρ -0.888 overall, consistent per batch).
 # dq_min is excluded because it duplicates it (ρ = -0.996).
@@ -46,6 +52,27 @@ def load_cells(path=CELLS):
 
 
 def split(cells):
-    """Assignment split: train on Batch 1, test on Batch 2, secondary test on Batch 3."""
+    """Assignment split: train on Batch 1, test on Batch 2, optional secondary test on Batch 3."""
     return {name: cells[cells["batch"] == batch].reset_index(drop=True)
             for name, batch in (("train", TRAIN), ("test", TEST), ("secondary", SECONDARY))}
+
+
+def holdout_split(train, seed=0, n_bins=5):
+    """Policy-level Batch 1 split into (dev, holdout, holdout_policies).
+
+    Policies are sorted by mean cycle life (ties by name), cut into ``n_bins`` equal bins,
+    and one policy per bin goes to the hold-out. No policy is shared between dev and hold-out.
+    """
+    life = train.groupby("policy")[TARGET].mean().reset_index().sort_values([TARGET, "policy"])
+    policies = life["policy"].to_numpy()
+    rng = np.random.default_rng(seed)
+    picked, bins = [], {}
+    for b, chunk in enumerate(np.array_split(policies, n_bins)):
+        choice = chunk[rng.integers(len(chunk))]
+        picked.append(choice)
+        bins.update({p: b for p in chunk})
+    holdout = train[train["policy"].isin(picked)].reset_index(drop=True)
+    dev = train[~train["policy"].isin(picked)].reset_index(drop=True)
+    for frame in (dev, holdout):
+        frame["life_bin"] = frame["policy"].map(bins)
+    return dev, holdout, picked

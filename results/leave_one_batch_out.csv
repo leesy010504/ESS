@@ -2,3 +2,6 @@ model,held_out,n_train,n,rmse,mae,mape
 Linear (ln Var ΔQ),Batch 1,83,36,102.6,88.69,11.51
 Linear (ln Var ΔQ),Batch 2,80,39,146.33,119.9,22.61
 Linear (ln Var ΔQ),Batch 3,75,44,249.25,152.96,12.22
+Ridge (extended),Batch 1,83,36,128.14,109.43,13.35
+Ridge (extended),Batch 2,80,39,274.47,221.84,37.86
+Ridge (extended),Batch 3,75,44,247.58,160.74,13.55

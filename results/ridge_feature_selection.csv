@@ -1,27 +1,27 @@
-target,step,tried,features,cv_rmse,adopted
-raw,0,baseline,ln_dq_variance,87.711,True
-raw,1,fade,"ln_dq_variance, early_qd_slope_clean",90.901,False
-raw,1,capacity,"ln_dq_variance, qd_100",73.643,True
-raw,1,resistance,"ln_dq_variance, ir_100",89.206,False
-raw,1,temperature,"ln_dq_variance, early_tavg_mean",89.647,False
-raw,1,charging,"ln_dq_variance, c1, switch_soc, c2, charge_current_10, early_charge_time_clean",110.531,False
-raw,2,fade,"ln_dq_variance, qd_100, early_qd_slope_clean",69.309,True
-raw,2,resistance,"ln_dq_variance, qd_100, ir_100",72.215,False
-raw,2,temperature,"ln_dq_variance, qd_100, early_tavg_mean",75.482,False
-raw,2,charging,"ln_dq_variance, qd_100, c1, switch_soc, c2, charge_current_10, early_charge_time_clean",78.597,False
-raw,3,resistance,"ln_dq_variance, qd_100, early_qd_slope_clean, ir_100",70.497,False
-raw,3,temperature,"ln_dq_variance, qd_100, early_qd_slope_clean, early_tavg_mean",71.334,False
-raw,3,charging,"ln_dq_variance, qd_100, early_qd_slope_clean, c1, switch_soc, c2, charge_current_10, early_charge_time_clean",77.285,False
-log,0,baseline,ln_dq_variance,89.241,True
-log,1,fade,"ln_dq_variance, early_qd_slope_clean",92.655,False
-log,1,capacity,"ln_dq_variance, qd_100",70.129,True
-log,1,resistance,"ln_dq_variance, ir_100",90.447,False
-log,1,temperature,"ln_dq_variance, early_tavg_mean",91.44,False
-log,1,charging,"ln_dq_variance, c1, switch_soc, c2, charge_current_10, early_charge_time_clean",103.946,False
-log,2,fade,"ln_dq_variance, qd_100, early_qd_slope_clean",68.109,True
-log,2,resistance,"ln_dq_variance, qd_100, ir_100",69.49,False
-log,2,temperature,"ln_dq_variance, qd_100, early_tavg_mean",71.838,False
-log,2,charging,"ln_dq_variance, qd_100, c1, switch_soc, c2, charge_current_10, early_charge_time_clean",72.689,False
-log,3,resistance,"ln_dq_variance, qd_100, early_qd_slope_clean, ir_100",69.226,False
-log,3,temperature,"ln_dq_variance, qd_100, early_qd_slope_clean, early_tavg_mean",69.647,False
-log,3,charging,"ln_dq_variance, qd_100, early_qd_slope_clean, c1, switch_soc, c2, charge_current_10, early_charge_time_clean",74.661,False
+target,step,tried,features,cv_mape,adopted
+raw,0,baseline,ln_dq_variance,9.541,True
+raw,1,fade,"ln_dq_variance, early_qd_slope_clean",12.178,False
+raw,1,capacity,"ln_dq_variance, qd_100",8.881,True
+raw,1,resistance,"ln_dq_variance, ir_100",10.344,False
+raw,1,temperature,"ln_dq_variance, early_tavg_mean",9.953,False
+raw,1,charging,"ln_dq_variance, c1, switch_soc, c2, charge_current_10, early_charge_time_clean",13.225,False
+raw,2,fade,"ln_dq_variance, qd_100, early_qd_slope_clean",7.205,True
+raw,2,resistance,"ln_dq_variance, qd_100, ir_100",7.778,False
+raw,2,temperature,"ln_dq_variance, qd_100, early_tavg_mean",9.3,False
+raw,2,charging,"ln_dq_variance, qd_100, c1, switch_soc, c2, charge_current_10, early_charge_time_clean",9.892,False
+raw,3,resistance,"ln_dq_variance, qd_100, early_qd_slope_clean, ir_100",7.526,False
+raw,3,temperature,"ln_dq_variance, qd_100, early_qd_slope_clean, early_tavg_mean",7.769,False
+raw,3,charging,"ln_dq_variance, qd_100, early_qd_slope_clean, c1, switch_soc, c2, charge_current_10, early_charge_time_clean",9.753,False
+log,0,baseline,ln_dq_variance,9.76,True
+log,1,fade,"ln_dq_variance, early_qd_slope_clean",12.449,False
+log,1,capacity,"ln_dq_variance, qd_100",7.305,True
+log,1,resistance,"ln_dq_variance, ir_100",10.569,False
+log,1,temperature,"ln_dq_variance, early_tavg_mean",10.09,False
+log,1,charging,"ln_dq_variance, c1, switch_soc, c2, charge_current_10, early_charge_time_clean",13.101,False
+log,2,fade,"ln_dq_variance, qd_100, early_qd_slope_clean",6.563,True
+log,2,resistance,"ln_dq_variance, qd_100, ir_100",6.686,False
+log,2,temperature,"ln_dq_variance, qd_100, early_tavg_mean",7.722,False
+log,2,charging,"ln_dq_variance, qd_100, c1, switch_soc, c2, charge_current_10, early_charge_time_clean",8.361,False
+log,3,resistance,"ln_dq_variance, qd_100, early_qd_slope_clean, ir_100",6.701,False
+log,3,temperature,"ln_dq_variance, qd_100, early_qd_slope_clean, early_tavg_mean",6.87,False
+log,3,charging,"ln_dq_variance, qd_100, early_qd_slope_clean, c1, switch_soc, c2, charge_current_10, early_charge_time_clean",8.034,False
